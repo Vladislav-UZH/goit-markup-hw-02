@@ -8,6 +8,10 @@
 --headline-text-color: rgba(33, 33, 33, 1);
 --link-hover-text-color: rgba(33, 150, 243, 1);
 --main-text-color: #212121;
+--footer-logo-color: rgba(255, 255, 255, 1);
+--footer-address-hover: rgba(255, 255, 255, 1);
+--footer-address-text-color: rgba(255, 255, 255, 0.6);
+
 /* bg-colors */
 --nav-bg-color: #FFFFFF;
 --section-footer-bg-color: rgba(47, 48, 58, 1);
@@ -121,4 +125,101 @@ a{
         line-height: 24px;
         letter-spacing: 0.03em;
         color: var(--main-text-color);
+}
+
+/* task section */
+
+.task-section-headline{
+font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--headline-text-color);
+}
+
+/* Our team */
+
+.teammates-section{
+    background-color: var(--teammates-section-bg-color);
+
+}
+.teammates-section-headline{
+    color: var(--headline-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.teammates-headline-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;    
+}
+.teammates-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+/* footer */
+.footer{
+    background-color: var(--section-footer-bg-color);
+}
+.logo-link{
+color: var(--footer-logo-color);
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+}
+.logo-part{
+    color: var(--link-hover-text-color);
+}
+
+
+.footer-adress-location{
+    color: var(--nav-bg-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+}
+.footer-contacts-link{
+    color: var(--footer-address-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus{
+    color: var(--footer-address-hover);
 }
