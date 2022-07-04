@@ -1,8 +1,8 @@
 :root {
 /* fonts */
---main-font: font-family: 'Roboto', sans-serif;
+--main-font: 'Roboto', sans-serif;
     
---secondary-font: font-family: 'Raleway',sans-serif;
+--secondary-font: 'Raleway',sans-serif;
 /* text-colors */
 --main-text-color: rgba(117, 117, 117, 1);
 --headline-text-color: rgba(33, 33, 33, 1);
@@ -11,6 +11,7 @@
 --footer-logo-color: rgba(255, 255, 255, 1);
 --footer-address-hover: rgba(255, 255, 255, 1);
 --footer-address-text-color: rgba(255, 255, 255, 0.6);
+--logo-header-black: rgba(0, 0, 0, 1);
 
 /* bg-colors */
 --nav-bg-color: #FFFFFF;
@@ -40,7 +41,7 @@ a{
 /* logo-style */
     .logo-link{
     font-family: var(--secondary-font);
-    color: rgba(0, 0, 0, 1);
+    color: var(--logo-header-black);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -180,7 +181,7 @@ font-family: 'Roboto';
 .footer{
     background-color: var(--section-footer-bg-color);
 }
-.logo-link{
+.footer-logo-link{
 color: var(--footer-logo-color);
 font-family: 'Raleway';
 font-style: normal;
@@ -191,7 +192,7 @@ line-height: 31px;
 
 letter-spacing: 0.03em;
 }
-.logo-part{
+.logo-blue-part{
     color: var(--link-hover-text-color);
 }
 
