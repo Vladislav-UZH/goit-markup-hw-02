@@ -15,8 +15,11 @@
 
 /* bg-colors */
 --nav-bg-color: #FFFFFF;
+--navig-bg-color:rgba(236, 236, 236, 1);
 --section-footer-bg-color: rgba(47, 48, 58, 1);
 --teammates-section-bg-color: rgba(245, 244, 250, 1);
+--portfolio-buttons-bg-color:rgba(245, 244, 250, 1);
+--portfolio-buttons-hover-bg-color:rgba(33, 150, 243, 1);
 /* others */
 }
 
@@ -35,7 +38,7 @@ a{
 
 /* header-style */
 .header{
-    background-color: var(--nav-bg-color);
+    background-color: var(--navig-bg-color);
 }
 
 /* logo-style */
@@ -223,4 +226,53 @@ letter-spacing: 0.03em;
 .footer-contacts-link:hover,
 .footer-contacts-link:focus{
     color: var(--footer-address-hover);
+}
+/* /////////////////////////////////////////////////////////////////////////// */
+/* ---portfolio.html--- */
+/* portfolio-image */
+.portfolio-img{
+    width: 370px;
+    height: 290px;
+}
+
+.main-section-button{
+    background-color: var(--portfolio-buttons-bg-color);
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    color: var(--headline-text-color);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.main-section-button:hover,
+.main-section-button:focus{
+    background-color: var(--portfolio-buttons-hover-bg-color);
+    color: var(--nav-bg-color);
+}
+
+/* main section list */
+
+.main-section-headline-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    color: var(--headline-text-color);
+    letter-spacing: 0.06em;
+}
+.main-section-subline-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: var(--main-text-color);
+    letter-spacing: 0.03em;
 }
