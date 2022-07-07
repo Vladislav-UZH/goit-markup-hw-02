@@ -222,6 +222,7 @@ a {
 }
 
 .main-section-button {
+  font-family: inherit;
   font-weight: 500;
   background-color: var(--portfolio-buttons-bg-color);
   cursor: pointer;
